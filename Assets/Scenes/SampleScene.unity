@@ -546,7 +546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosition: {fileID: 2114051192}
   projectilePrefab: {fileID: 4792460097340031752, guid: de6faaf4939171243ba96e4fcf9fd2a0, type: 3}
-  throwForce: 10
+  throwForce: 6.29
 --- !u!114 &1224658666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,7 +891,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.40586203, y: 0.26313782}
+  m_Offset: {x: 0.40586203, y: -0.00014936924}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -902,7 +902,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5012424, y: 5.0135345}
+  m_Size: {x: 0.5012424, y: 4.4869604}
   m_EdgeRadius: 0
 --- !u!58 &1643664838
 CircleCollider2D:
@@ -1019,7 +1019,7 @@ GameObject:
   - component: {fileID: 2114051193}
   m_Layer: 0
   m_Name: BasketBallPlaceholder
-  m_TagString: Untagged
+  m_TagString: HeldBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
